@@ -466,7 +466,7 @@ body {
   font-size: 24px;
   color: #070707;
   min-height: 67px;
- 
+
 }
 
 .accessories__item-text {
@@ -492,5 +492,76 @@ body {
   -webkit-text-fill-color: transparent;
   text-align: center;
   width: 100%;
-  
+}
+
+.contacts {
+  margin-bottom: 100px;
+}
+
+.contacts__title {
+  font-size: 24px;
+  line-height: 33px;
+  color: #070707;
+  margin-bottom: 10px;
+}
+
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.contacts__form {
+  flex-basis: 600px;
+}
+
+.contacts__text {
+  font-size: 13px;
+}
+
+.form {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.form__input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #CACAD6;
+  padding: 22px 70px 22px 0;
+}
+
+.form__input::placeholder {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #CACAD6;
+}
+
+.form__btn {
+  width: 50px;
+  height: 50px;
+  background-color: #CACAD6;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #5C5C5E;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+}
+
+.footer {
+  border-top: 1px solid #CACAD6;
+  border-bottom: 1px solid #CACAD6;
+  margin-bottom: 44px;
+  padding: 30px 0;
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+  justify-self: flex-end;
 }
